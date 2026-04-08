@@ -1,9 +1,9 @@
 <?php
 $menu_location = $args['menu'] ?? 'header_menu';
-$container_class = $args['class'] ?? 'nav';
+$className = $args['className'] ?? '';
 ?>
 
-<nav class="<?php echo esc_attr($container_class); ?>">
+<nav class="nav <?php echo esc_attr($className); ?>">
     <?php
     wp_nav_menu([
         'theme_location' => $menu_location,

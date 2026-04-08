@@ -36,11 +36,16 @@
 
 .header {
   position: relative;   
-  display: flex;
-  align-items: center;
   height: var(--header-height);
   z-index: 2;   
   background: transparent;
+}
+
+.header__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
 }
 
 @media (max-width: 768px) {

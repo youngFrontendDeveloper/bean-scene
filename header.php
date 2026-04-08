@@ -19,7 +19,7 @@
 
     <!-- Шапка -->
     <header class="header">
-      <div class="container">
+      <div class="container header__container">
       <?php get_template_part('template-parts/components/logo', null, [
         'size' => 'sm',
         'className' => 'header__logo'
