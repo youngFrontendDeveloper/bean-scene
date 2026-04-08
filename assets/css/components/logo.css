@@ -1,0 +1,18 @@
+.logo {
+  font-family: var(--font-title);
+  font-weight: 400;
+  color: var(--color-white);
+  text-decoration: none;
+}
+
+.logo:hover {
+  color: var(--color-accent);
+}
+
+.logo--sm {
+  font-size: 35px;
+}
+
+.logo--lg {
+  font-size: 54px;
+}

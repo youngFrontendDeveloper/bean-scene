@@ -1,0 +1,30 @@
+:root {
+  /* Colors */
+  --color-primary: #603809;
+  --color-accent: #F9C06A;
+  --color-dark: #1E1E1E;
+  --color-gray: #707070;
+  --color-white: #FFFFFF;
+
+  /* Typography */
+  --font-main: 'Playfair Display', sans-serif;
+  --font-title: 'Clicker Script', serif;
+
+  /* Layout */
+  --container-width: 1366px;
+  --container-padding: 0 15px;
+
+ /* header height */
+  --header-height: 83px;
+
+  /* Spacing */
+  --spacing-sm: 8px;
+  --spacing-md: 16px;
+  --spacing-lg: 32px;
+}
+
+@media screen and (min-width: 768px) {
+  :root {
+    --container-padding: 0 20px;
+  }
+}

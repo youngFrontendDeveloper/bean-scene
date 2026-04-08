@@ -1,0 +1,16 @@
+.btn {
+  padding: 14px 25px;
+  font-weight: 700;
+  background: var(--color-accent);
+  border-color: transparent;
+  border-radius: 24px;
+  display: inline-block;
+  transition: scale ease .3s;
+}
+
+.btn:hover {
+  color: var(--color-accent);
+  background: var(--color-primary);
+  cursor: pointer;
+  transform: scale(1.05);  
+}
