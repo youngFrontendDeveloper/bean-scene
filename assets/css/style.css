@@ -7,6 +7,9 @@
 @import url('components/button.css');
 @import url('components/logo.css');
 @import url('components/navigation.css');
+@import url('components/title.css');
+@import url('components/text.css');
+@import url('components/about.css');
 
 /* Sections */
 @import url('sections/header.css');
@@ -43,10 +46,19 @@ img {
   margin: 0 auto;  
 }
 
+.link {
+  display: block;
+  font-family: var(--font-main);
+  text-decoration: none;
+  transition: scale 0.3s ease;
+}
 
+.link:hover {
+  color: var(--color-accent);
+  scale: 1.07;
+}
 
-
-
+/* 
 .grid {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -57,4 +69,4 @@ img {
   background: #fff;
   padding: 20px;
   text-align: center;
-}
+} */
