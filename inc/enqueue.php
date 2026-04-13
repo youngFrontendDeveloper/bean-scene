@@ -18,6 +18,14 @@ function coffee_enqueue_assets() {
 	);
 
 	wp_enqueue_script(
+    'coffee-mobile-menu',
+    get_template_directory_uri() . '/assets/js/mobile-menu.js',
+    array(),
+    '1.0',
+    true
+);
+
+	wp_enqueue_script(
 		'coffee-slider',
 		get_template_directory_uri() . '/assets/js/slider.js',
 		array(),

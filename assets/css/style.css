@@ -9,12 +9,14 @@
 @import url('components/navigation.css');
 @import url('components/title.css');
 @import url('components/text.css');
-@import url('components/about.css');
+
 
 /* Sections */
 @import url('sections/header.css');
 @import url('sections/hero.css');
 @import url('sections/footer.css');
+@import url('sections/about.css');
+@import url('sections/new-blend.css');
 
 
 body { 
