@@ -1,8 +1,8 @@
 <?php 
 // Получаем данные из ACF
 $different_title = get_field('different_title');
-$different_top_text = get_field('different_top_text');
-$different_bottom_text = get_field('different_bottom_text');
+$different_top_text = get_field('different_top-text');
+$different_bottom_text = get_field('different_bottom-text');
 $different_slogan = get_field('different_slogan');
 
 // Получаем карточки
@@ -14,16 +14,16 @@ $card_4 = get_field('different_card_4');
 $cards = [$card_1, $card_2, $card_3, $card_4];
 ?>
 
-<section class="different section">
+<section class="different section" id='different'>
   <div class="container">
 
   <?php get_template_part('template-parts/components/title', null, [
-      'title' => 'Why are we different?',
-      'className' => 'title--dark'
+      'title' => $different_title,
+      'className' => 'title--dark title--center'
   ]); ?>
 
       <?php get_template_part('template-parts/components/text', null, [
-          'text' => 'We don’t just make coffee — we make your day!',
+          'text' => $different_top_text,
           'className' => 'text--gray text--center different__text-first'
       ]); ?>   
     
@@ -56,11 +56,12 @@ $cards = [$card_1, $card_2, $card_3, $card_4];
         </div>
 
     <?php get_template_part('template-parts/components/text', null, [
-          'text' => 'Great ideas start with great coffee, Lets help you achieve that Get started today.',
+          'text' => $different_bottom_text,
           'className' => 'text--gray text--center different__text-second'
       ]); ?> 
 
-      <p class='different_slogan'>Get started today</p>
+      <p class='different_slogan'><?php echo $different_slogan; ?></p>
+
       <?php Button::render([
             'text' => 'Join Us', 
             'className' => 'different__button', 

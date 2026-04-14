@@ -98,144 +98,208 @@ for our customers.',
 
         // ========== КАРТОЧКИ (фиксированные 4 штуки) ==========
 
-// Карточка 1
-[
-    'key' => 'group_different_card_1',
-    'label' => 'Card 1',
-    'name' => 'different_card_1',
-    'type' => 'group',
-    'sub_fields' => [
+        // Карточка 1
         [
-            'key' => 'field_card_1_image',
-            'label' => 'Image',
-            'name' => 'image',
-            'type' => 'image',
-            'return_format' => 'url',
-            'preview_size' => 'medium',
-            'instructions' => 'Upload card image',
+            'key' => 'group_different_card_1',
+            'label' => 'Card 1',
+            'name' => 'different_card_1',
+            'type' => 'group',
+            'sub_fields' => [
+                [
+                    'key' => 'field_card_1_image',
+                    'label' => 'Image',
+                    'name' => 'image',
+                    'type' => 'image',
+                    'return_format' => 'url',
+                    'preview_size' => 'medium',
+                    'instructions' => 'Upload card image',
+                ],
+                [
+                    'key' => 'field_card_1_title',
+                    'label' => 'Title',
+                    'name' => 'title',
+                    'type' => 'text',
+                    'default_value' => 'Supreme Beans',
+                    'placeholder' => 'e.g., Supreme Beans',
+                ],
+                [
+                    'key' => 'field_card_1_text',
+                    'label' => 'Text',
+                    'name' => 'text',
+                    'type' => 'textarea',
+                    'default_value' => 'Beans that provides great taste',
+                    'rows' => 2,            
+                    'new_lines' => 'br', 
+                ],
+            ],
         ],
-        [
-            'key' => 'field_card_1_title',
-            'label' => 'Title',
-            'name' => 'title',
-            'type' => 'text',
-            'default_value' => 'Supreme Beans',
-            'placeholder' => 'e.g., Supreme Beans',
-        ],
-        [
-            'key' => 'field_card_1_text',
-            'label' => 'Text',
-            'name' => 'text',
-            'type' => 'textarea',
-            'default_value' => 'Beans that provides great taste',
-            'rows' => 2,            
-            'new_lines' => 'br', 
-        ],
-    ],
-],
 
-// Карточка 2
-[
-    'key' => 'group_different_card_2',
-    'label' => 'Card 2',
-    'name' => 'different_card_2',
-    'type' => 'group',
-    'sub_fields' => [
+        // Карточка 2
         [
-            'key' => 'field_card_2_image',
-            'label' => 'Image',
-            'name' => 'image',
-            'type' => 'image',
-            'return_format' => 'url',
-            'preview_size' => 'medium',
+            'key' => 'group_different_card_2',
+            'label' => 'Card 2',
+            'name' => 'different_card_2',
+            'type' => 'group',
+            'sub_fields' => [
+                [
+                    'key' => 'field_card_2_image',
+                    'label' => 'Image',
+                    'name' => 'image',
+                    'type' => 'image',
+                    'return_format' => 'url',
+                    'preview_size' => 'medium',
+                ],
+                [
+                    'key' => 'field_card_2_title',
+                    'label' => 'Title',
+                    'name' => 'title',
+                    'type' => 'text',
+                    'default_value' => 'High Quality',
+                ],
+                [
+                    'key' => 'field_card_2_text',
+                    'label' => 'Text',
+                    'name' => 'text',
+                    'type' => 'textarea',
+                    'default_value' => 'We provide the highest quality',
+                    'rows' => 2,
+                    'new_lines' => 'br', 
+                ],
+            ],
         ],
+
+        // Карточка 3
         [
-            'key' => 'field_card_2_title',
-            'label' => 'Title',
-            'name' => 'title',
-            'type' => 'text',
-            'default_value' => 'High Quality',
+            'key' => 'group_different_card_3',
+            'label' => 'Card 3',
+            'name' => 'different_card_3',
+            'type' => 'group',
+            'sub_fields' => [
+                [
+                    'key' => 'field_card_3_image',
+                    'label' => 'Image',
+                    'name' => 'image',
+                    'type' => 'image',
+                    'return_format' => 'url',
+                    'preview_size' => 'medium',
+                ],
+                [
+                    'key' => 'field_card_3_title',
+                    'label' => 'Title',
+                    'name' => 'title',
+                    'type' => 'text',
+                    'default_value' => 'Extraordinary',
+                ],
+                [
+                    'key' => 'field_card_3_text',
+                    'label' => 'Text',
+                    'name' => 'text',
+                    'type' => 'textarea',
+                    'default_value' => 'Coffee like you have never tasted',
+                    'rows' => 2,
+                    'new_lines' => 'br', 
+                ],
+            ],
         ],
+
+        // Карточка 4
         [
-            'key' => 'field_card_2_text',
-            'label' => 'Text',
-            'name' => 'text',
+            'key' => 'group_different_card_4',
+            'label' => 'Card 4',
+            'name' => 'different_card_4',
+            'type' => 'group',
+            'sub_fields' => [
+                [
+                    'key' => 'field_card_4_image',
+                    'label' => 'Image',
+                    'name' => 'image',
+                    'type' => 'image',
+                    'return_format' => 'url',
+                    'preview_size' => 'medium',
+                ],
+                [
+                    'key' => 'field_card_4_title',
+                    'label' => 'Title',
+                    'name' => 'title',
+                    'type' => 'text',
+                    'default_value' => 'Affordable Price',
+                ],
+                [
+                    'key' => 'field_card_4_text',
+                    'label' => 'Text',
+                    'name' => 'text',
+                    'type' => 'textarea',
+                    'default_value' => 'Our Coffee prices are easy to afford',
+                    'rows' => 2,
+                    'new_lines' => 'br', 
+                ],
+            ],
+        ],
+
+        // ========== ВКЛАДКА ORDER ==========
+        [
+            'key' => 'tab_order',
+            'label' => 'ORDER',
+            'name' => '',
+            'type' => 'tab',
+            'placement' => 'top',
+            'endpoint' => 0,
+        ],
+
+        // Order Title
+        [
+            'key' => 'field_order_title',
+            'label' => 'Order Title',
+            'name' => 'order_title',
             'type' => 'textarea',
-            'default_value' => 'We provide the highest quality',
+            'default_value' => 'Get a chance to have an Amazing morning',
             'rows' => 2,
             'new_lines' => 'br', 
         ],
-    ],
-],
 
-// Карточка 3
-[
-    'key' => 'group_different_card_3',
-    'label' => 'Card 3',
-    'name' => 'different_card_3',
-    'type' => 'group',
-    'sub_fields' => [
+        // Order Text
         [
-            'key' => 'field_card_3_image',
-            'label' => 'Image',
-            'name' => 'image',
-            'type' => 'image',
-            'return_format' => 'url',
-            'preview_size' => 'medium',
-        ],
-        [
-            'key' => 'field_card_3_title',
-            'label' => 'Title',
-            'name' => 'title',
-            'type' => 'text',
-            'default_value' => 'Extraordinary',
-        ],
-        [
-            'key' => 'field_card_3_text',
-            'label' => 'Text',
-            'name' => 'text',
+            'key' => 'field_order_text',
+            'label' => 'Order Text',
+            'name' => 'order_text',
             'type' => 'textarea',
-            'default_value' => 'Coffee like you have never tasted',
+            'default_value' => 'We are giving you are one time opportunity to experience a better life with coffee.',
             'rows' => 2,
             'new_lines' => 'br', 
         ],
+ 
+
+     // ========== ВКЛАДКА REVIEWS ==========
+     [
+        'key' => 'tab_reviews',
+        'label' => 'REVIEWS',
+        'name' => '',
+        'type' => 'tab',
+        'placement' => 'top',
+        'endpoint' => 0,
     ],
+    
+    // reviews Title
+    [
+        'key' => 'field_reviews_title',
+        'label' => 'Reviews Title',
+        'name' => 'reviews_title',
+        'type' => 'text',
+        'default_value' => 'Our coffee perfection feedback',
+    ],
+    
+    // reviews Text
+    [
+        'key' => 'field_reviews_text',
+        'label' => 'Reviews Text',
+        'name' => 'reviews_text',
+        'type' => 'textarea',
+        'default_value' => 'Our customers has amazing things to say about us',
+        'rows' => 3,
+    ],
+         
 ],
 
-// Карточка 4
-[
-    'key' => 'group_different_card_4',
-    'label' => 'Card 4',
-    'name' => 'different_card_4',
-    'type' => 'group',
-    'sub_fields' => [
-        [
-            'key' => 'field_card_4_image',
-            'label' => 'Image',
-            'name' => 'image',
-            'type' => 'image',
-            'return_format' => 'url',
-            'preview_size' => 'medium',
-        ],
-        [
-            'key' => 'field_card_4_title',
-            'label' => 'Title',
-            'name' => 'title',
-            'type' => 'text',
-            'default_value' => 'Affordable Price',
-        ],
-        [
-            'key' => 'field_card_4_text',
-            'label' => 'Text',
-            'name' => 'text',
-            'type' => 'textarea',
-            'default_value' => 'Our Coffee prices are easy to afford',
-            'rows' => 2,
-            'new_lines' => 'br', 
-        ],
-    ],
-],
-    ],
     'location' => [
         [
             [

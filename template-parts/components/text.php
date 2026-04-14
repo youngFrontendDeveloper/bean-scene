@@ -5,4 +5,6 @@ $text = $args['text'] ?? '';
 $className = $args['className'] ?? '';  
 ?>
 
-    <p class="text <?php echo esc_attr($className); ?>"><?php echo esc_html($text); ?></p>
+    <p class="text <?php echo esc_attr($className); ?>">
+        <?php echo wp_kses_post($text); ?>
+    </p>

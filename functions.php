@@ -18,6 +18,14 @@ add_action('coffee_homepage', function() {
     get_template_part('template-parts/sections/different');
 }, 40); 
 
+add_action('coffee_homepage', function() {
+    get_template_part('template-parts/sections/order');
+}, 40); 
+
+add_action('coffee_homepage', function() {
+    get_template_part('template-parts/sections/reviews');
+}, 40); 
+
 // Шрифты в прелоад
 function coffee_preload_fonts() {
     echo '<link rel="preload" href="' . get_template_directory_uri() . '/assets/fonts/PlayfairDisplay-Regular.woff2" as="font" type="font/woff2" crossorigin>';

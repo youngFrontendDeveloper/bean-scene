@@ -1,0 +1,30 @@
+.order{
+  position: relative;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 574px;
+}
+
+.order-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;     
+  object-fit: cover;
+  z-index: -1;
+}
+
+.order__content {
+  width: 100%;
+  max-width: 575px;
+}
+
+.order__title {
+  margin-bottom: 22px;
+}
+
+.order__text {
+  margin-bottom: 22px;
+}

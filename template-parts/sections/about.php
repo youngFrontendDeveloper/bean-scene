@@ -3,7 +3,7 @@
     <div class="about__content ">
       <?php get_template_part('template-parts/components/title', null, [
       'title' => 'Discover the best coffee',
-      'className' => 'title--dark'
+      'className' => 'title--dark title--center'
   ]); ?>
 
       <?php get_template_part('template-parts/components/text', null, [

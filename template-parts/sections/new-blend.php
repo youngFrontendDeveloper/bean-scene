@@ -12,7 +12,7 @@ $cards_count = is_array($blend_cards) ? count($blend_cards) : 0;
     <div class="new-blend__content ">
       <?php get_template_part('template-parts/components/title', null, [
       'title' => 'Enjoy a new blend of coffee style',
-      'className' => 'title--dark'
+      'className' => 'title--dark title--center'
   ]); ?>
 
       <?php get_template_part('template-parts/components/text', null, [
