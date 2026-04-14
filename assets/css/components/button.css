@@ -1,11 +1,13 @@
 .btn {
+  display: block;
   padding: 14px 25px;
+  font-size: 16px;
   font-weight: 700;
+  color: var(--color-primary);
   background: var(--color-accent);
-  border-color: transparent;
-  border-radius: 24px;
-  display: inline-block;
-  transition: scale ease .3s;
+  border: 1px solid transparent;
+  border-radius: 24px;  
+  transition: all ease .3s;
 }
 
 .btn:hover {

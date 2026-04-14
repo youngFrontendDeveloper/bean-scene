@@ -1,4 +1,4 @@
-<section class="about" id="about">
+<section class="about section" id="about">
   <div class="container about__container">
     <div class="about__content ">
       <?php get_template_part('template-parts/components/title', null, [

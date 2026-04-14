@@ -38,6 +38,17 @@
   .about__image-container {
     display: block;
     width: 50%;
-    max-width: 500px;
+    max-width: 500px;   
+  }
+  
+  .about__image {
+    width: 100%;
+  }
+
+}
+
+@media screen and (min-width: 992px) {
+  .about__image-container {    
+    padding-top: 0;
   }
 }

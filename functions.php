@@ -15,11 +15,7 @@ add_action('coffee_homepage', function() {
 }, 20);
 
 add_action('coffee_homepage', function() {
-    get_template_part('template-parts/sections/products');
-}, 30);
-
-add_action('coffee_homepage', function() {
-    get_template_part('template-parts/sections/why');
+    get_template_part('template-parts/sections/different');
 }, 40); 
 
 // Шрифты в прелоад
@@ -67,3 +63,34 @@ function coffee_nav_menu_link_atts( $atts, $item, $args, $depth ) {
 
 	return $atts;
 }
+
+/**
+ * Разрешаем загрузку SVG файлов
+ */
+function allow_svg_upload( $mimes ) {
+	$mimes['svg'] = 'image/svg+xml';
+	return $mimes;
+}
+add_filter( 'upload_mimes', 'allow_svg_upload' );
+
+/**
+* Исправляем отображение SVG в медиатеке
+*/
+function fix_svg_thumb_display() {
+	echo '<style>
+			td.media-icon img[src$=".svg"], img[src$=".svg"].attachment-preview {
+					width: 100% !important;
+					height: auto !important;
+			}
+	</style>';
+}
+add_action( 'admin_head', 'fix_svg_thumb_display' );
+
+/**
+* Добавляем поддержку SVG для ACF полей
+*/
+function allow_svg_in_acf( $args ) {
+	$args['mime_types'] = 'jpg, jpeg, png, gif, svg';
+	return $args;
+}
+add_filter( 'acf/fields/image/field', 'allow_svg_in_acf' );

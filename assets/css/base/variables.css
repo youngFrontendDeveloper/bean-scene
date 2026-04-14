@@ -2,6 +2,7 @@
   /* Colors */
   --color-primary: #603809;
   --color-accent: #F9C06A;
+  --color-accent-rgba: hsla(36, 92%, 70%, 0.42);
   --color-dark: #1E1E1E;
   --color-gray: #707070;
   --color-white: #FFFFFF;

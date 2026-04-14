@@ -5,6 +5,7 @@ class Button {
         $defaults = [
             'text' => 'Order Now',           
             'className' => '',
+            'id' => '',
             'onClick' => null,
         ];
         $args = wp_parse_args($args, $defaults);
@@ -24,6 +25,7 @@ class Button {
         
         ?>
         <button 
+            id="<?php echo esc_attr($args['id']); ?>" 
             class="btn <?php echo esc_attr($args['className']); ?>" 
             <?php echo $onclick_attr; ?>
         >

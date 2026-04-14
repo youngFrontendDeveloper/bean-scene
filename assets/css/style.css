@@ -17,6 +17,7 @@
 @import url('sections/footer.css');
 @import url('sections/about.css');
 @import url('sections/new-blend.css');
+@import url('sections/different.css');
 
 
 body { 
@@ -60,15 +61,13 @@ img {
   scale: 1.07;
 }
 
-/* 
-.grid {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: 20px;
+.section{
+  padding: 40px 0 20px 0; 
 }
 
-.card {
-  background: #fff;
-  padding: 20px;
-  text-align: center;
-} */
+@media screen and (min-width: 768px) {
+  .section{
+    padding: 50px 0 30px 0;
+  }
+}
+
