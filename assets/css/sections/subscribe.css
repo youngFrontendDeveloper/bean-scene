@@ -1,0 +1,116 @@
+.subscribe {
+  position: relative;
+  padding: 40px 0;
+}
+
+.subscribe_image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: auto;
+  min-height: 400px;
+  object-fit: cover;
+  z-index: -2;
+}
+
+.subscribe__container{
+  width: 100%;
+  max-width: 980px;
+}
+
+.subscribe__text{
+  margin-bottom: 26px;
+}
+
+.subscribe__form{
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 10px;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 642px;
+  height: 66px;
+}
+
+.subscribe__field{
+  flex-grow: 1;
+  max-width: 505px;
+  height: 100%;
+}
+
+.subscribe__input {
+  width: 100%;
+  height: 100%;
+  padding: 16px 26px;
+}
+
+.subscribe__input::placeholder {
+  font-family: var(--font-main);
+  font-size: 20;
+  line-height: 34px;
+  color: var(--color-gray-rgba);
+}
+
+.subscribe__button {  
+  min-width: 155px;
+  height: 100%;
+  font-size: 22px;
+  font-weight: 700;
+  background-color: #d88d4c;
+  border: none;
+  border-radius: 4px;
+  padding: 19px 24px;
+  cursor: pointer;
+}
+
+.subscribe__button-text{
+  display: inline-block;
+}
+
+.subscribe__spin {
+  display: none; 
+  border-radius: 50%;
+  animation: spin 2s linear infinite; 
+}
+
+.subscribe__button.is-loading .subscribe__button-text{
+  display: none;
+}
+
+.subscribe__button.is-loading .subscribe__spin{
+  display: inline-block;  
+}
+
+.wpcf7-spinner {
+  display: none;
+}
+
+@keyframes spin {
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.wpcf7-response-output {
+  display: none;
+}
+
+@media screen and (min-width: 768px) {
+  .subscribe {   
+    padding: 80px 0;
+  }
+
+    .subscribe_image {
+      height: 374px;
+    }
+
+    .subscribe__form{
+      flex-wrap: nowrap;
+      justify-content: center;
+      gap: 0;
+    }
+}

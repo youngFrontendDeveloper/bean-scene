@@ -2,7 +2,7 @@
   font-family: var(--font-title);
   font-weight: 400;
   color: var(--color-white);
-  text-decoration: none;
+  text-decoration: none;  
 }
 
 .logo:hover {
@@ -11,8 +11,10 @@
 
 .logo--sm {
   font-size: 35px;
+  line-height: 1;
 }
 
 .logo--lg {
   font-size: 54px;
+  line-height: 1;
 }

@@ -15,7 +15,11 @@ function coffee_enqueue_assets() {
 		array(),
 		'1.0',
 		true
-	);
+	); 
+
+	// слайдер 
+	wp_enqueue_script('glide-slider', get_template_directory_uri() . '/assets/js/glide-slider.js', ['glide-js'], '1.0', true);
+
 
 	wp_enqueue_script(
     'coffee-mobile-menu',
@@ -25,13 +29,24 @@ function coffee_enqueue_assets() {
     true
 );
 
+
+wp_enqueue_script(
+	'coffee-modal',
+	get_template_directory_uri() . '/assets/js/modal.js',
+	array(),
+	'1.0',
+	true
+);
+
 	wp_enqueue_script(
-		'coffee-slider',
-		get_template_directory_uri() . '/assets/js/slider.js',
-		array(),
-		'1.0',
-		true
-	);
+    'coffee-form',
+    get_template_directory_uri() . '/assets/js/cf7-form.js',
+    array(),
+    '1.0',
+    true
+);
+
+
 
 	wp_enqueue_script(
 		'coffee-main',
@@ -42,24 +57,3 @@ function coffee_enqueue_assets() {
 	);
 }
 
-
-// <?php
-
-// function coffee_enqueue() {
-//     wp_enqueue_style(
-//         'coffee-style',
-//         get_template_directory_uri() . '/assets/css/style.css',
-//         [],
-//         '1.0'
-//     );
-
-//     wp_enqueue_script(
-//         'coffee-js',
-//         get_template_directory_uri() . '/assets/js/main.js',
-//         [],
-//         '1.0',
-//         true
-//     );
-// }
-
-// add_action('wp_enqueue_scripts', 'coffee_enqueue'); 

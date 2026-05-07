@@ -76,3 +76,16 @@ document.addEventListener('DOMContentLoaded', function() {
   // Инициализация: скрываем карточки после 4-й
   updateVisibleCards();
 });
+
+// Модалка
+document.addEventListener('DOMContentLoaded', () => {
+    const modal = new Modal('#app-modal');
+  
+    // пример использования
+    document.addEventListener('wpcf7mailsent', (event) => {
+      modal.open({
+        content: `<p>${event.detail.apiResponse.message}</p>`,
+        className: 'modal--success'
+      });
+    });
+  });

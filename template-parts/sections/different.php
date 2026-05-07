@@ -1,17 +1,17 @@
 <?php 
-// Получаем данные из ACF
-$different_title = get_field('different_title');
-$different_top_text = get_field('different_top-text');
-$different_bottom_text = get_field('different_bottom-text');
-$different_slogan = get_field('different_slogan');
+    // Получаем данные из ACF
+    $different_title = get_field('different_title');
+    $different_top_text = get_field('different_top-text');
+    $different_bottom_text = get_field('different_bottom-text');
+    $different_slogan = get_field('different_slogan');
 
-// Получаем карточки
-$card_1 = get_field('different_card_1');
-$card_2 = get_field('different_card_2');
-$card_3 = get_field('different_card_3');
-$card_4 = get_field('different_card_4');
+    // Получаем карточки
+    $card_1 = get_field('different_card_1');
+    $card_2 = get_field('different_card_2');
+    $card_3 = get_field('different_card_3');
+    $card_4 = get_field('different_card_4');
 
-$cards = [$card_1, $card_2, $card_3, $card_4];
+    $cards = [$card_1, $card_2, $card_3, $card_4];
 ?>
 
 <section class="different section" id='different'>

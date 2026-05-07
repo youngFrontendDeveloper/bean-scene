@@ -47,6 +47,9 @@ for our customers.',
             'rows' => 3,
         ],
 
+
+        
+
         
           // ========== ВКЛАДКА DIFFERENT ==========
           [
@@ -296,6 +299,35 @@ for our customers.',
         'type' => 'textarea',
         'default_value' => 'Our customers has amazing things to say about us',
         'rows' => 3,
+    ],
+
+    // ========== ВКЛАДКА SUBSCRIBE ==========
+    [
+        'key' => 'tab_subscribe',
+        'label' => 'SUBSCRIBE',
+        'name' => '',
+        'type' => 'tab',
+        'placement' => 'top',
+        'endpoint' => 0,
+    ],
+    
+    // subscribe Title
+    [
+        'key' => 'field_subscribe_title',
+        'label' => 'Subscribe Title',
+        'name' => 'subscribe_title',
+        'type' => 'text',
+        'default_value' => 'Subscribe to get the Latest News',
+    ],
+    
+    // subscribe Text
+    [
+        'key' => 'field_subscribe_text',
+        'label' => 'Subscribe Text',
+        'name' => 'subscribe_text',
+        'type' => 'textarea',
+        'default_value' => 'Don’t miss out on our latest news, updates, tips and special offers',
+        'rows' => 2,
     ],
          
 ],
