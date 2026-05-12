@@ -1,12 +1,16 @@
+.logo-wrap {
+  font-family: var(--font-title);
+}
+
 .logo {
   font-family: var(--font-title);
   font-weight: 400;
   color: var(--color-white);
-  text-decoration: none;  
+  text-decoration: none;   
 }
 
 .logo:hover {
-  color: var(--color-accent);
+  color: var(--color-accent);  
 }
 
 .logo--sm {

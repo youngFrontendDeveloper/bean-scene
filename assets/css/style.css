@@ -53,10 +53,10 @@ img {
 }
 
 .link {
-  display: block;
-  font-family: var(--font-main);
+  display: inline-block;
+  font-family: inherit;
   text-decoration: none;
-  transition: scale 0.3s ease;
+  transition: all 0.3s ease;
 }
 
 .link:hover {

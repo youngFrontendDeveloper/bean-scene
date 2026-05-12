@@ -13,7 +13,7 @@ if (!empty($className)) {
 ?>
 
 <div  class="<?php echo esc_attr($logo_classes); ?>">
-    <a href="<?php echo esc_url($logo_url); ?>" class="logo">        
+    <a href="<?php echo esc_url($logo_url); ?>" class="logo link">        
         <?php echo esc_html($logo_text); ?>        
     </a>
 </div>
