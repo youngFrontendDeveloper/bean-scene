@@ -38,7 +38,7 @@
         <p class="footer__address-text">Email:&nbsp; <a class="footer__address-span link" href="mailto:2oN1u@example.com"> 2oN1u@example.com</a></p>
       </address>
     </div>
-    <p class="footer__copyright">© <?php echo date('Y'); ?> Coffee</p>
+    <!-- <p class="footer__copyright">© <?php echo date('Y'); ?> Coffee</p> -->
   </div>
 </footer>
 
