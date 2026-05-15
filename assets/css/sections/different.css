@@ -57,6 +57,21 @@
 
 @media screen and (min-width: 768px) {
   .different{
+    position: relative;
     margin-bottom: 50px;
+  }
+
+  .different::after {
+    content: "";
+    position: absolute;
+    top: -160px;
+    right: 0;
+    background-image: url('../../images/coffee_blast_right.webp');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 373px;
+    height: 261px;
+    z-index: -1;
   }
 }

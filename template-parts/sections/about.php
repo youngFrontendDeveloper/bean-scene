@@ -20,7 +20,7 @@
     </div>  <!-- end about__content -->
 
     <div class="about__image-container">
-      <img src="<?php echo get_template_directory_uri(); ?>/assets/images/about.png" alt="Чашка настоящего кофе" class="about__image">
+      <img src="<?php echo get_template_directory_uri(); ?>/assets/images/about.webp" alt="Чашка настоящего кофе" class="about__image">
     </div>
 
   </div>  <!-- end container -->

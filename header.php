@@ -13,7 +13,7 @@
 
 <!-- Фоновое изображение и оверлей -->
     <div class="header-bg">
-      <img class="header-bg__image" src="<?php echo get_template_directory_uri(); ?>/assets/images/hero.jpg" alt="Coffee background">
+      <img class="header-bg__image" src="<?php echo get_template_directory_uri(); ?>/assets/images/hero.webp" alt="Coffee background">
       <div class="header-bg__overlay"></div>
     </div>
 

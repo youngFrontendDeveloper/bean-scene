@@ -4,7 +4,7 @@
 ?>
 
 <section class="subscribe" id='subscribe'>
-  <img src="<?php echo get_template_directory_uri(); ?>/assets/images/subscribe.jpg" alt="Фон секции" class="subscribe_image"> 
+  <img src="<?php echo get_template_directory_uri(); ?>/assets/images/subscribe.webp" alt="Фон секции" class="subscribe_image"> 
   <div class="container subscribe__container">
     <?php get_template_part('template-parts/components/title', null, [
           'title' => $subscribe_title,

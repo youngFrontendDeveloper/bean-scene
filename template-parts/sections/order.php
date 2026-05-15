@@ -6,7 +6,7 @@
 
 <section class="order" id='order'>
 
-<img src="<?php echo get_template_directory_uri(); ?>/assets/images/order.jpg" alt="Фон секции" class="order-image">
+<img src="<?php echo get_template_directory_uri(); ?>/assets/images/order.webp" alt="Фон секции" class="order-image">
 
   <div class="container">   
 

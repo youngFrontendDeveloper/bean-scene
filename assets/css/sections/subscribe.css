@@ -111,3 +111,33 @@
     height: 66px;
   }
 }
+
+@media screen and (min-width: 1180px) {
+  .subscribe::before {   
+    content: "";
+    position: absolute;
+    bottom: -180px;
+    left: -80px;
+    background-image: url('../../images/cup-left.webp');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 444px;
+    height: 358px;
+    z-index: 1;
+  }
+
+  .subscribe::after {   
+    content: "";
+    position: absolute;
+    bottom: -180px;
+    right: 0;
+    background-image: url('../../images/cup-right.webp');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 285px;
+    height: 358px;
+    z-index: 1;
+  }
+}

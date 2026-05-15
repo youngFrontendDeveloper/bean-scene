@@ -1,8 +1,4 @@
 <section class="hero">
- <!-- <div class="hero-image-wrap">
-  <img class="hero-image" src="<?php echo get_template_directory_uri(); ?>/assets/images/hero.jpg" alt="Чашка кофе">
-<div class="hero-image-overlay"></div>   -->
-<!-- </div> -->
   <div class="container">
   <div class='hero-content'>
     <h1 class='visually-hidden'>Закажите кофе с доставкой на дом</h1>
