@@ -23,7 +23,7 @@
 
         <?php Button::render([
             'text' => 'Order Now', 
-            'className' => 'order__button', 
+            'className' => 'order__button open-order-modal', 
             'onClick' => 'console.log("order")'
         ]); ?>
     </div>

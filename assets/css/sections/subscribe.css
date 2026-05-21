@@ -23,7 +23,7 @@
   margin-bottom: 26px;
 }
 
-.subscribe__form{
+/* .subscribe__form{
   position: relative;
   display: flex;
   flex-wrap: wrap;
@@ -34,28 +34,28 @@
   width: 100%;
   max-width: 642px;
   height: auto;
-}
+} */
 
-.subscribe__field{
+/* .subscribe__field{
   flex-grow: 1;
   max-width: 505px;
   height: 100%;
-}
+} */
 
-.subscribe__input {
+/* .subscribe__input {
   width: 100%;
   height: 100%;
   padding: 16px 26px;
-}
+} */
 
-.subscribe__input::placeholder {
+/* .subscribe__input::placeholder {
   font-family: var(--font-main);
   font-size: 20;
   line-height: 34px;
   color: var(--color-gray-rgba);
-}
+} */
 
-.subscribe__button {  
+/* .subscribe__button {  
   min-width: 155px;
   height: 100%;
   font-size: 22px;
@@ -65,13 +65,13 @@
   border-radius: 4px;
   padding: 19px 24px;
   cursor: pointer;
-}
+} */
 
-.subscribe__button-text{
+/* .subscribe__button-text{
   display: inline-block;
-}
+} */
 
-.subscribe__spin {
+/* .subscribe__spin {
   display: none; 
   border-radius: 50%;
   animation: spin 2s linear infinite; 
@@ -87,7 +87,7 @@
 
 .wpcf7-spinner {
   display: none;
-}
+} */
 
 @keyframes spin {
   100% {

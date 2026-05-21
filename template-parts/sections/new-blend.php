@@ -48,7 +48,7 @@ $cards_count = is_array($blend_cards) ? count($blend_cards) : 0;
                                 <?php endif; ?>
                                 <?php Button::render([
                                     'text' => 'Order Now', 
-                                    'className' => 'blend-card__button', 
+                                    'className' => 'blend-card__button open-order-modal', 
                                     'onClick' => 'console.log("blend")'
                                 ]); ?>
  

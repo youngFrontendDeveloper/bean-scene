@@ -17,7 +17,7 @@
       ]); ?> 
 
       <?php      
-      echo do_shortcode( '[contact-form-7 id="43fdb2b" title="Subscribe" html_class="subscribe__form"]' ); 
+      echo do_shortcode( '[contact-form-7 id="43fdb2b" title="Subscribe" html_class="form subscribe__form"]' ); 
       ?>
   </div>
 </section>

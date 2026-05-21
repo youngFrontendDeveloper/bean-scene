@@ -38,8 +38,16 @@
         <p class="footer__address-text">Email:&nbsp; <a class="footer__address-span link" href="mailto:2oN1u@example.com"> 2oN1u@example.com</a></p>
       </address>
     </div>
-    <!-- <p class="footer__copyright">© <?php echo date('Y'); ?> Coffee</p> -->
   </div>
+
+<!-- Форма заказа -->
+<div id="order-form-template" style="display:none;">
+<div class="order__form-wrapper">
+  <?php echo do_shortcode('[contact-form-7 id="caeca9a" title="Order-form" html_class="form order__form"]'); ?>
+  </div>
+</div>
+  
+
 </footer>
 
 <?php wp_footer(); ?>
